@@ -1,0 +1,4 @@
+﻿  GetPrimeNumber.cpp
+C:\Users\USER-PC\source\repos\GetPrimeNumber\GetPrimeNumber\GetPrimeNumber.cpp(46,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\source\repos\GetPrimeNumber\GetPrimeNumber\GetPrimeNumber.cpp(42,9): warning C4101: 'firstZero' :참조되지 않은 지역 변수입니다.
+  GetPrimeNumber.vcxproj -> C:\Users\USER-PC\source\repos\GetPrimeNumber\Debug\GetPrimeNumber.exe
