@@ -1,0 +1,4 @@
+﻿  소스.cpp
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\Compress(KaKaoBlindRecruitMent)\Compress(KaKaoBlindRecruitMent)\소스.cpp(27,11): warning C4834: 'nodiscard' 특성이 포함된 함수의 반환 값을 버리는 중
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\Compress(KaKaoBlindRecruitMent)\Compress(KaKaoBlindRecruitMent)\소스.cpp(41,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Compress(KaKaoBlindRecruitMent).vcxproj -> C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\Compress(KaKaoBlindRecruitMent)\Debug\Compress(KaKaoBlindRecruitMent).exe
