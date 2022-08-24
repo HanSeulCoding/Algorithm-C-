@@ -1,0 +1,8 @@
+﻿  소스.cpp
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\ArrayFileName(KAKAO Blind RecruitMent)\ArrayFileName(KAKAO Blind RecruitMent)\소스.cpp(22,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\ArrayFileName(KAKAO Blind RecruitMent)\ArrayFileName(KAKAO Blind RecruitMent)\소스.cpp(21,9): warning C4101: 'numberIndex' :참조되지 않은 지역 변수입니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\ArrayFileName(KAKAO Blind RecruitMent)\ArrayFileName(KAKAO Blind RecruitMent)\소스.cpp(45,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\ArrayFileName(KAKAO Blind RecruitMent)\ArrayFileName(KAKAO Blind RecruitMent)\소스.cpp(67,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\ArrayFileName(KAKAO Blind RecruitMent)\ArrayFileName(KAKAO Blind RecruitMent)\소스.cpp(84,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\ArrayFileName(KAKAO Blind RecruitMent)\ArrayFileName(KAKAO Blind RecruitMent)\소스.cpp(98,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  ArrayFileName(KAKAO Blind RecruitMent).vcxproj -> C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\ArrayFileName(KAKAO Blind RecruitMent)\Debug\ArrayFileName(KAKAO Blind RecruitMent).exe
