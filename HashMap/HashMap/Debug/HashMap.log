@@ -1,0 +1,14 @@
+﻿  HashMap.cpp
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\HashMap\HashMap\HashMap.cpp(90,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\HashMap\HashMap\HashMap.cpp(85): message : 클래스 템플릿 멤버 함수 'int HashMap<int,int>::hash(T)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=int
+          ]
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\HashMap\HashMap\HashMap.cpp(159): message : 컴파일되는 함수 템플릿 인스턴스화 'int HashMap<int,int>::hash(T)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=int
+          ]
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\HashMap\HashMap\HashMap.cpp(194): message : 컴파일되는 클래스 템플릿 인스턴스화 'HashMap<int,int>'에 대한 참조를 확인하세요.
+  HashMap.vcxproj -> C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\HashMap\Debug\HashMap.exe
