@@ -1,0 +1,4 @@
+﻿  소스.cpp
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\DivideElectronic(Programmers)\DivideElectronic(Programmers)\소스.cpp(14,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\DivideElectronic(Programmers)\DivideElectronic(Programmers)\소스.cpp(37,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  DivideElectronic(Programmers).vcxproj -> C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\DivideElectronic(Programmers)\Debug\DivideElectronic(Programmers).exe
