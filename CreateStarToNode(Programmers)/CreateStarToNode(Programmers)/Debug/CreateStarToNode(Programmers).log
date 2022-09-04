@@ -1,0 +1,30 @@
+﻿  소스.cpp
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\CreateStarToNode(Programmers)\CreateStarToNode(Programmers)\소스.cpp(55,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\CreateStarToNode(Programmers)\CreateStarToNode(Programmers)\소스.cpp(60,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\CreateStarToNode(Programmers)\CreateStarToNode(Programmers)\소스.cpp(66,16): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\CreateStarToNode(Programmers)\CreateStarToNode(Programmers)\소스.cpp(69,20): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\CreateStarToNode(Programmers)\CreateStarToNode(Programmers)\소스.cpp(96,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\CreateStarToNode(Programmers)\CreateStarToNode(Programmers)\소스.cpp(105,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\CreateStarToNode(Programmers)\CreateStarToNode(Programmers)\소스.cpp(107,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\CreateStarToNode(Programmers)\CreateStarToNode(Programmers)\소스.cpp(147,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(242,16): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=__int64
+          ]
+          and
+          [
+              _Ty1=long
+          ]
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\CreateStarToNode(Programmers)\CreateStarToNode(Programmers)\소스.cpp(122): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<long,long>::pair<__int64,__int64,0>(std::pair<__int64,__int64> &&) noexcept'에 대한 참조를 확인하세요.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\CreateStarToNode(Programmers)\CreateStarToNode(Programmers)\소스.cpp(122): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<long,long>::pair<__int64,__int64,0>(std::pair<__int64,__int64> &&) noexcept'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(242,61): warning C4244: '초기화 중': '_Ty'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=__int64
+          ]
+          and
+          [
+              _Ty2=long
+          ]
+  CreateStarToNode(Programmers).vcxproj -> C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\CreateStarToNode(Programmers)\Debug\CreateStarToNode(Programmers).exe
