@@ -1,0 +1,5 @@
+﻿  EnglishEndTalk.cpp
+C:\Users\USER-PC\source\repos\EnglishEndTalk(Programmers)\EnglishEndTalk(Programmers)\EnglishEndTalk.cpp(11,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\source\repos\EnglishEndTalk(Programmers)\EnglishEndTalk(Programmers)\EnglishEndTalk.cpp(24,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\source\repos\EnglishEndTalk(Programmers)\EnglishEndTalk(Programmers)\EnglishEndTalk.cpp(48,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  EnglishEndTalk(Programmers).vcxproj -> C:\Users\USER-PC\source\repos\EnglishEndTalk(Programmers)\Debug\EnglishEndTalk(Programmers).exe
