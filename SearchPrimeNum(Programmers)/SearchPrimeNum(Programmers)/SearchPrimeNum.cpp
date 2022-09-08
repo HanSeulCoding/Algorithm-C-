@@ -20,18 +20,7 @@ bool IsPrimeNumber(int n)
     return true;
 }
 void Dfs(string s, string numbers, int index, int end,int& count)
-{
-    if (index == end)
-    {
-        int num = stoi(s);
-        if (!check[num] && IsPrimeNumber(num))
-        {
-            check[num] = true;
-            count++;
-        }
-        return;
-    }
-   
+{  
     for (int i = 0; i < numbers.size(); ++i)
     {
         if (indexCheck[i])
@@ -39,6 +28,13 @@ void Dfs(string s, string numbers, int index, int end,int& count)
         
         indexCheck[i] = true;
         s += numbers[i];
+        int num = stoi(s);
+        if (!check[num] && IsPrimeNumber(num))
+        {
+            check[num] = true;
+            count++;
+        }
+       
         Dfs(s, numbers, index + 1, end, count);
         indexCheck[i] = false;
         s.pop_back();
@@ -48,16 +44,15 @@ int solution(string numbers) {
     int answer = 0;
     vector<char> c;
     string s = "";
-    for (int i = 1; i <= numbers.size(); ++i)
-    {
-        Dfs(s, numbers, 0, i, answer);
-    }
+    
+    Dfs(s, numbers, 0, numbers.size(), answer);
+
    
     return answer;
 }
 int main()
 {
-    string number = "011";
+    string number = "17";
     int answer = solution(number);
 
     cout << answer << endl;
