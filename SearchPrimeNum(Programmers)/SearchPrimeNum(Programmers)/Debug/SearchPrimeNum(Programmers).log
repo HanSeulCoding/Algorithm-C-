@@ -1,0 +1,4 @@
+﻿  SearchPrimeNum.cpp
+C:\Users\USER-PC\source\repos\SearchPrimeNum(Programmers)\SearchPrimeNum(Programmers)\SearchPrimeNum.cpp(35,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\source\repos\SearchPrimeNum(Programmers)\SearchPrimeNum(Programmers)\SearchPrimeNum.cpp(51,23): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  SearchPrimeNum(Programmers).vcxproj -> C:\Users\USER-PC\source\repos\SearchPrimeNum(Programmers)\Debug\SearchPrimeNum(Programmers).exe
