@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a708e42f-ba3b-47a0-98ac-bb042f4aa425": {
+      "ProjectGuid": "a708e42f-ba3b-47a0-98ac-bb042f4aa425",
+      "DisplayName": "QuickSort",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
