@@ -217,6 +217,8 @@ void PreorderTraversal(TreeNode* root)
 //	}
 //	return answer;
 //}
+
+
 int FindSingleNumber(int* numbers, int arraySize)
 {
 	for (int i = 0; i < arraySize; ++i)
@@ -230,6 +232,50 @@ int FindSingleNumber(int* numbers, int arraySize)
 			return numbers[i];
 		}
 	}
+}
+//문제 7
+// 정사각형 이미지를 나타내는 정방형 2차원 배열이 있습니다. 이 때, 이미지의 크기는 동적입니다.
+// 가능한 메모리를 적게 사용해서 이미지를 시계 방향으로 90도 돌려주세요.
+//<예>
+//입력값:
+//1, 2, 3,
+//4, 5, 6,
+//7, 8, 9
+//변경된값
+//7, 4, 1,
+//8, 5, 2,
+//9, 6, 3
+void RotateRectangle(int **image, int width)
+{
+	//이 곳을 채우시오.
+	int** temp = (int**)malloc(sizeof(int*) * 3);
+	for (int i = 0; i < 3; ++i)
+	{
+		temp[i] = (int*)malloc(sizeof(int) * 3);
+	}
+	for (int i = 0; i < width; ++i) // 값 복사
+	{
+		for (int j = 0; j < width; ++j)
+		{
+			temp[i][j] = image[i][j];
+		}
+	}
+	for (int i = 0; i < width; ++i)
+	{
+		for (int j = 0; j < width; ++j)
+		{
+			temp[i][j] = image[width - j - 1][i];
+		}
+	}
+	for (int i = 0; i < width; ++i) // 값 복사
+	{
+		for (int j = 0; j < width; ++j)
+		{
+			image[i][j] = temp[i][j];
+		}
+	}
+
+	
 }
 int main()
 {
@@ -262,8 +308,34 @@ int main()
 	PreorderTraversal(treeNode);*/
 
 	//문제 6
-	int array[] = {2,2,4,4,6,6,3,1,1,7,7};
+	/*int array[] = {2,2,4,4,6,6,3,1,1,7,7};
 
 	int answer = FindSingleNumber(array, 11);
-	printf("%d", answer);
+	printf("%d", answer);*/
+
+	//문제 7
+	int** image = (int**)malloc(sizeof(int*) * 3);
+	for (int i = 0; i < 3; ++i)
+	{
+		image[i] = (int*)malloc(sizeof(int) * 3);
+	}
+	image[0][0] = 1;
+	image[0][1] = 2;
+	image[0][2] = 3;
+	image[1][0] = 4;
+	image[1][1] = 5;
+	image[1][2] = 6;
+	image[2][0] = 7;
+	image[2][1] = 8;
+	image[2][2] = 9;
+
+	RotateRectangle(image, 3);
+	for (int i = 0; i < 3; ++i)
+	{
+		for (int j = 0; j < 3; ++j)
+		{
+			printf("%d ", image[i][j]);
+		}
+		printf("\n");
+	}
 }
