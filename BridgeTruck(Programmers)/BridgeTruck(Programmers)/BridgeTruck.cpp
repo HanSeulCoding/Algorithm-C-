@@ -12,27 +12,27 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
     queue<int> bridgeCrossTruck;
     queue<int> readyTruck;
     bridgeCrossTruck.push(truck_weights[0]);
-    for (int i = 0; i < truck_weights.size(); ++i)
+    sum = truck_weights[0];
+    while (!bridgeCrossTruck.empty())
     {
-        readyTruck.push(truck_weights[i]);
-    }
+        int truck = bridgeCrossTruck.front();
+        t++;
 
-    while (!readyTruck.empty())
-    {
-        int truck = readyTruck.front();
-        readyTruck.pop();
-        sum += truck;
-        if (!readyTruck.empty())
+        if (t == bridge_length) //트럭이 다리를 다 건넜다는 얘기.
         {
-            if (readyTruck.front() + sum <= weight)
+            bridgeCrossTruck.pop();
+            if (index < truck_weights.size())
             {
-                t++;
-                sum += readyTruck.front();
+                bridgeCrossTruck.push(truck_weights[++index]);
             }
-            else
+        }
+        else
+        {
+            if (index + 1 < truck_weights.size() && sum + truck_weights[index + 1] < weight)
             {
-                t += bridge_length;
-                sum += readyTruck.front();
+                sum += truck_weights[index + 1];
+                bridgeCrossTruck.push(truck_weights[index]+1);
+                index++;
             }
         }
     }
