@@ -6,37 +6,39 @@ using namespace std;
 
 int solution(int bridge_length, int weight, vector<int> truck_weights) {
     int answer = 0;
-    int t = 0;
     int index = 0;
     int sum = 0;
     queue<int> bridgeCrossTruck;
-    queue<int> readyTruck;
-    bridgeCrossTruck.push(truck_weights[0]);
-    sum = truck_weights[0];
-    while (!bridgeCrossTruck.empty())
-    {
-        int truck = bridgeCrossTruck.front();
-        t++;
 
-        if (t == bridge_length) //트럭이 다리를 다 건넜다는 얘기.
+    while (true)
+    {
+        if (index == truck_weights.size())
         {
+            answer += bridge_length;
+            break;
+        }
+        int truck = truck_weights[index];
+        answer++;
+
+        // Truck이 다리위를 지났을경우 
+        if (bridgeCrossTruck.size() == bridge_length)
+        {
+            sum -= bridgeCrossTruck.front();
             bridgeCrossTruck.pop();
-            if (index < truck_weights.size())
-            {
-                bridgeCrossTruck.push(truck_weights[++index]);
-            }
+        }
+        //다리위 Truck보다 Truck 무게가 나갔을경우
+        if (sum + truck <= weight)
+        {
+            sum += truck;
+            bridgeCrossTruck.push(truck);
+            index++;
         }
         else
         {
-            if (index + 1 < truck_weights.size() && sum + truck_weights[index + 1] < weight)
-            {
-                sum += truck_weights[index + 1];
-                bridgeCrossTruck.push(truck_weights[index]+1);
-                index++;
-            }
+            bridgeCrossTruck.push(0);
         }
     }
-    answer = t;
+
     return answer;
 }
 

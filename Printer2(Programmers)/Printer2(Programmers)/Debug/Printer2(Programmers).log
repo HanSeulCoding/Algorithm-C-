@@ -1,0 +1,4 @@
+﻿  Printer2.cpp
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\Printer2(Programmers)\Printer2(Programmers)\Printer2.cpp(21,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\Printer2(Programmers)\Printer2(Programmers)\Printer2.cpp(29,30): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Printer2(Programmers).vcxproj -> C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\Printer2(Programmers)\Debug\Printer2(Programmers).exe
