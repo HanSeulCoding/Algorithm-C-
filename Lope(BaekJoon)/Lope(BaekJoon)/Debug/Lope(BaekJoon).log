@@ -1,0 +1,5 @@
+﻿  Lope.cpp
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\Lope(BaekJoon)\Lope(BaekJoon)\Lope.cpp(17,20): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\Lope(BaekJoon)\Lope(BaekJoon)\Lope.cpp(13,6): warning C4101: 'minLopes' :참조되지 않은 지역 변수입니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\Lope(BaekJoon)\Lope(BaekJoon)\Lope.cpp(12,6): warning C4101: 'maxLopes' :참조되지 않은 지역 변수입니다.
+  Lope(BaekJoon).vcxproj -> C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\Lope(BaekJoon)\Debug\Lope(BaekJoon).exe
