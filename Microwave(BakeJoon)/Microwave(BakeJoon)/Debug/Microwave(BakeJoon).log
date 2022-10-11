@@ -1,0 +1,5 @@
+﻿  소스.cpp
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\Microwave(BakeJoon)\Microwave(BakeJoon)\소스.cpp(11,24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\Microwave(BakeJoon)\Microwave(BakeJoon)\소스.cpp(36,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\Microwave(BakeJoon)\Microwave(BakeJoon)\소스.cpp(45,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Microwave(BakeJoon).vcxproj -> C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\Microwave(BakeJoon)\Debug\Microwave(BakeJoon).exe
