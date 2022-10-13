@@ -1,0 +1,5 @@
+﻿  소스.cpp
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\OneNumber(BakeJoon)\OneNumber(BakeJoon)\소스.cpp(13,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\OneNumber(BakeJoon)\OneNumber(BakeJoon)\소스.cpp(22,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\OneNumber(BakeJoon)\OneNumber(BakeJoon)\소스.cpp(24,13): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  OneNumber(BakeJoon).vcxproj -> C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\OneNumber(BakeJoon)\Debug\OneNumber(BakeJoon).exe
