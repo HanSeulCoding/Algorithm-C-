@@ -1,0 +1,18 @@
+﻿  GasStation.cpp
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\GasStation(BakeJoon)\GasStation(BakeJoon)\GasStation.cpp(22,24): warning C4244: '인수': '__int64'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\GasStation(BakeJoon)\GasStation(BakeJoon)\GasStation.cpp(22,30): warning C4244: '인수': '_Ty2'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty2=__int64
+          ]
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\GasStation(BakeJoon)\GasStation(BakeJoon)\GasStation.cpp(25,27): warning C4244: '인수': '__int64'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\GasStation(BakeJoon)\GasStation(BakeJoon)\GasStation.cpp(25,14): warning C4244: '초기화 중': '_Ty2'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty2=__int64
+          ]
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\GasStation(BakeJoon)\GasStation(BakeJoon)\GasStation.cpp(25,67): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\GasStation(BakeJoon)\GasStation(BakeJoon)\GasStation.cpp(36,48): warning C4244: '인수': '__int64'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\GasStation(BakeJoon)\GasStation(BakeJoon)\GasStation.cpp(46,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\GasStation(BakeJoon)\GasStation(BakeJoon)\GasStation.cpp(54,9): warning C4244: 'return': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GasStation(BakeJoon).vcxproj -> C:\Users\USER-PC\Documents\GitHub\Algorithm(C++)\Algorithm-C-\GasStation(BakeJoon)\Debug\GasStation(BakeJoon).exe
