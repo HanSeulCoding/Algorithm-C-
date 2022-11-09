@@ -2,17 +2,21 @@
 #include <vector>
 #include <algorithm>
 #include <queue>
+
+int N = 2, K = 2;
+long long dp[201][201];
+
 using namespace std;
 
 vector<int> CreateCard(int n)
 {
-	vector<int> card;
+	vector<int> c;
 	for (int i = 0; i < n; ++i)
 	{
-		card.push_back(i);
+		c.push_back(i);
 	}
 
-	return card;
+	return c;
 }
 bool isCorrect(int n, int k)
 {
@@ -21,55 +25,53 @@ bool isCorrect(int n, int k)
 
 	return false;
 }
-void Dfs(int sum,int index, int indexCount, int n ,int k, int& answer, vector<int> test,vector<int> &card)
+//void Dfs(int sum,int index, int indexCount, int& answer, vector<int>& card)
+//{
+//	if (indexCount == k)
+//	{
+//		if (isCorrect(sum, n))
+//		{
+//			answer = (answer + 1) % 1000000007;
+//		}
+//		return;
+//	}
+//	for (int i = index; i < card.size(); ++i)
+//	{
+//		if (i == 0 && card.size() - i < k)
+//			return;
+//		Dfs((sum + card[i]) % 1000000007, i + 1, indexCount + 1, answer,card);
+//	}
+//}
+int solution()
 {
-	if (index > card.size() - 1)
-		return;
-	sum += card[index];
-	if (indexCount == k || indexCount == card.size() - 1)
-	{
-		if (isCorrect(sum, n) && indexCount == k)
-		{
-			answer++;
-			for (int i = 0; i < test.size(); ++i)
-			{
-				cout << test[i] << endl;
-			}
-		}
-		Dfs(sum, index + 1, indexCount + 1, n, k, answer, test, card);
-		sum -= card[index];
-		return;
-	}
-	//test.push_back(card[index]);
-	for (int j = index; j < card.size(); ++j)
-	{
-		if (indexCount == 0)
-		{
-			if (card.size() - j < k)
-				return;
-		}
-		test.push_back(card[index]);
-	
-		Dfs(sum, index + 1, indexCount + 1, n, k, answer, test, card);
-		sum -= card[index];
-	}
-}
-int solution(int n, int k)
-{
-	vector<int> card = CreateCard(n);
+	vector<int> card = CreateCard(N);
 	vector<bool> visit(card.size(), 0);
 	vector<int>test;
 	int answer = 0;
-
-	Dfs(0, 0, 1, n, k, answer, test, card);
+	for (int i = 0; i <= N; ++i)
+	{
+		dp[1][i] = 1;
+	}
+	//Dfs(0, 0, 0,answer,card);
+	for (int k = 2; k <= K; ++k)
+	{
+		for (int n = 0; n <= N; ++n)
+		{
+			for (int i = 0; i <= n; ++i)
+			{
+				dp[k][n] = dp[k][n] + dp[k - 1][n-i];
+			}
+			dp[k][n] = dp[k][n] % 1000000;
+		}
+	}
+	cout << dp[K][N];
 	return answer;
 }
 int main()
 {
-	int n = 5, k = 3;
 	int answer = 0;
 
 	//cin >> n >> k;
-	answer = solution(n, k);
+	answer = solution();
 	cout << answer << endl;
 }
