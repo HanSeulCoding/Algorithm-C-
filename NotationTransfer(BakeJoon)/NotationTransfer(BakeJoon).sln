@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NotationTransfer(BakeJoon)", "NotationTransfer(BakeJoon)\NotationTransfer(BakeJoon).vcxproj", "{67006520-65DE-47AE-8B92-C5DFD07CC687}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67006520-65DE-47AE-8B92-C5DFD07CC687}.Debug|x64.ActiveCfg = Debug|x64
+		{67006520-65DE-47AE-8B92-C5DFD07CC687}.Debug|x64.Build.0 = Debug|x64
+		{67006520-65DE-47AE-8B92-C5DFD07CC687}.Debug|x86.ActiveCfg = Debug|Win32
+		{67006520-65DE-47AE-8B92-C5DFD07CC687}.Debug|x86.Build.0 = Debug|Win32
+		{67006520-65DE-47AE-8B92-C5DFD07CC687}.Release|x64.ActiveCfg = Release|x64
+		{67006520-65DE-47AE-8B92-C5DFD07CC687}.Release|x64.Build.0 = Release|x64
+		{67006520-65DE-47AE-8B92-C5DFD07CC687}.Release|x86.ActiveCfg = Release|Win32
+		{67006520-65DE-47AE-8B92-C5DFD07CC687}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9403C82-5773-4255-8666-1F58DDC60492}
+	EndGlobalSection
+EndGlobal
